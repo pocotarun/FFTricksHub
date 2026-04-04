@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFTricksHub 🎮</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
+        body { background-color: #0a0a0a; color: #fff; line-height: 1.6; }
+
+        /* Header */
+        header { background-color: #1c1c1c; padding: 20px 50px; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { color: #ff3d00; font-size: 2rem; }
+        nav a { color: #fff; text-decoration: none; margin-left: 20px; font-weight: bold; }
+        nav a:hover { color: #ff3d00; }
+
+        /* Hero Section */
+        .hero { text-align: center; padding: 100px 20px; background: linear-gradient(90deg, #ff3d00, #ffb74d); color: #000; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; }
+        .hero a { background-color: #0a0a0a; color: #ff3d00; padding: 15px 30px; margin: 0 10px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .hero a:hover { background-color: #ff3d00; color: #0a0a0a; }
+
+        /* Features Section */
+        .features { padding: 50px 20px; text-align: center; }
+        .features h2 { margin-bottom: 40px; color: #ff3d00; }
+        .feature-cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .card { background-color: #1c1c1c; padding: 20px; width: 250px; border-radius: 10px; transition: transform 0.3s; }
+        .card:hover { transform: scale(1.05); }
+        .card h3 { color: #ffb74d; margin-bottom: 10px; }
+        .card p { font-size: 0.9rem; }
+
+        /* Footer */
+        footer { background-color: #1c1c1c; text-align: center; padding: 30px 20px; margin-top: 50px; }
+        footer p { margin-bottom: 10px; color: #aaa; }
+        footer a { color: #ff3d00; text-decoration: none; font-weight: bold; }
+        footer a:hover { text-decoration: underline; }
+
+        /* Responsive */
+        @media(max-width:768px){
+            .feature-cards { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>FFTricksHub 🎮</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#content">Guides</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Dominate Free Fire with Pro Tips, Tricks & Settings 🔥</h1>
+        <p>Level up your gameplay with expert strategies, perfect sensitivity settings, and powerful guides.</p>
+        <a href="#content">Explore Guides</a>
+        <a href="#features">View Features</a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Why Choose FFTricksHub?</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <h3>🎯 Sensitivity Settings</h3>
+                <p>Optimize your aim with the best sensitivity setups for different devices.</p>
+            </div>
+            <div class="card">
+                <h3>🔫 Gun Combos & Loadouts</h3>
+                <p>Discover top weapon combinations for maximum damage and efficiency.</p>
+            </div>
+            <div class="card">
+                <h3>🧠 Pro Tips & Tricks</h3>
+                <p>Learn expert strategies and gameplay tricks from top players.</p>
+            </div>
+            <div class="card">
+                <h3>📱 Device Optimization</h3>
+                <p>Guides to optimize performance for your mobile device.</p>
+            </div>
+            <div class="card">
+                <h3>🏆 Rank Push Strategies</h3>
+                <p>Step-by-step methods to climb ranks faster and smarter.</p>
+            </div>
+            <div class="card">
+                <h3>🎮 Beginner to Advanced</h3>
+                <p>Comprehensive guides for all levels, from newbies to pros.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content / Guides Section -->
+    <section class="features" id="content">
+        <h2>Explore Guides & Tips</h2>
+        <div class="feature-cards">
+            <div class="card"><h3>Sensitivity</h3><a href="sensitivity.html">View Guides →</a></div>
+            <div class="card"><h3>Tips</h3><a href="tips.html">View Guides →</a></div>
+            <div class="card"><h3>Configs</h3><a href="configs.html">View Guides →</a></div>
+            <div class="card"><h3>Full Guides</h3><a href="guides.html">View Guides →</a></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>© 2026 FFTricksHub 🎮 | Made for Free Fire Players</p>
+        <p>Suggestions or Feedback? <a href="mailto:contact@fftrickshub.com">Contact Us</a></p>
+        <p>💥 Keep Grinding. Keep Winning. 💥</p>
+    </footer>
+
+</body>
+</html>
