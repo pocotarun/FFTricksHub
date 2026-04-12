@@ -1,8 +1,10 @@
 # FFTricksHub
 FFTricksHub is a repository dedicated to Free Fire players, offering useful tips, tricks, sensitivity settings, and gameplay guides to help players enhance their skills and overall performance.
 
+## Site
+https://fftrickshub.netlify.app/
 
-🔥 FFTricksHub<br>`
+🔥 FFTricksHub<br>
 
 Welcome to FFTricksHub 🎮
 Your one-stop destination for the best Free Fire tips, tricks, settings, and gameplay guides to improve your skills and dominate the battlefield.<br><br>
