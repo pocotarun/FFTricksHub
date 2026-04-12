@@ -1,0 +1,3 @@
+.gitignoe me add karna isko 
+netlify se multi page stie deploy karna 
+adv. css apply karna 
